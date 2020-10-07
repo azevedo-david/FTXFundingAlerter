@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "ftxfundingalerter"
+version = "0.1.0"
+description = "FTX funding rate monitor"
+authors = ["David Azevedo <david.aze.13@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+environs = "^8.0.0"
+python-telegram-bot = "^13.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
