@@ -2,7 +2,7 @@
 
 FTX Funding Alerter é um projeto simples que notifica o usuário com os instrumentos de maiores e menores funding rates na exchange FTX. O monitoramento é feito ao executar o arquivo funding_alert.py que verifica as funding rates dos futures periodicamente e envia uma mensagem pelo Telegram caso seja desejado.
 
-Para rodar o alerta de funding rates é necessário necessário criar um arquivo .env no diretório do projeto. Esse arquivo contem os inputs do projeto:
+Para rodar o alerta de funding rates é necessário necessário criar um arquivo .env no diretório do projeto. Esse arquivo deve conter os inputs do projeto:
 
  - **LIST_OF_FUTURES**: lista de nomes dos instrumentos para monitorar. Default: "all".
 
